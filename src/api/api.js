@@ -3,7 +3,7 @@ import axios from "axios"
 
 // Creando conexión con el sevidor local
 export const api = axios.create({
-    baseURL: "http://localhost:8000"
+    baseURL: "https://vercel.com/gbarrantes25/db"
 })
 
 // Vamos a buscar datos de una función asíncrona
